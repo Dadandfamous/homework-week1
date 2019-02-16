@@ -3,13 +3,22 @@
     <meta charset="utf-8">
     <title>Mocha Tests</title>
     <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+    <!-- I inserted my own CSS sheet beneath -->
+    <link href="index.css" rel="stylesheet" />
+
 </head>
 <body>
 
 
   <!-- YOUR HTML HERE -->
+  <img id="inn" src="https://66.media.tumblr.com/1a2a8c82361222daa020e21400bef88d/tumblr_pbr3nbNVtc1xzkabyo1_1280.gif" onclick="rest(hero)">
 
+  <img id="dagger" src="https://thumbs.gfycat.com/OddballBewitchedGourami-size_restricted.gif"  onclick="pickUpItem(hero,daggerLoot)">
 
+  <img id="bag" src="http://siteassets.pagecloud.com/mountainyak/images/gif3-ID-47f36c56-a8cc-44de-d2cd-1b9e94406683.gif"  onclick="clickBag()">
+
+  <button type="button" id="statsbutton" onclick="displayStats()">Display Stats of your hero</button>
+  
 
   <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
   <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>

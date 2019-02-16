@@ -1,0 +1,13 @@
+
+/* This code converts all images to the same dimensions */
+img {
+width: 100px;
+height: 100px;
+}
+
+#statsbutton {
+  position:absolute;
+  top: 20%;
+  left: 0%;
+}
+
